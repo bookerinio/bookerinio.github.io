@@ -1,0 +1,146 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding: 50px 0;
+}
+
+h1 {
+    color: white;
+    font-weight: 100;
+    font-size: 100px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 30px;
+}
+
+p {
+    font-size: 28px;
+    color: #eeeeee;
+    font-weight: 300;
+    text-align: center;
+    max-width: 1280px;
+    margin: 10px auto;
+}
+
+#questions {
+    max-width: 1280px;
+    margin: 80px auto;
+}
+
+#questions .container {
+    display: block;
+    position: relative;
+    font-size: 22px;
+    font-weight: 100;
+    color: white;
+    padding-left: 35px;
+    margin: 10px 0;
+}
+
+#questions .container .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #ccc;
+    border-radius: 50%;
+}
+
+#questions .container .checkmark:hover {
+    background-color: #aaa;
+}
+
+#questions .container input {
+    visibility: hidden;
+}
+
+#questions .container input:checked ~.checkmark {
+    background-color: #9400D3;
+}
+
+#questions .container .checkmark:after {
+    top: 8px;
+    left: 8px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    content: "";
+    position: absolute;
+    display: block;
+}
+
+#btn-wrapper {
+    text-align: center;
+    margin: 30px 0;
+}
+
+#questions #check-btn {
+    font-size: 30px;
+    color: #eeeeee;
+    background-color: black;
+    border: 2px solid white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    padding: 5px 10px;
+}
+
+#questions #check-btn:hover {
+    background-color: #333;
+}
+
+#questions #check-btn:active {
+    background-color: #bbb;
+}
+
+#description #info {
+    color: #eeeeee;
+    max-width: 1280px;
+    margin: auto;
+}
+
+#description #info h2 {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+#questions h3 {
+    color: #eee;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#questions ul {
+    list-style: none;
+}
+
+#questions li {
+    color: #eee;
+    font-size: 24px;
+}
+
+#questions #refresh-btn {
+    font-size: 30px;
+    color: #eeeeee;
+    background-color: black;
+    border: 2px solid white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    padding: 5px 10px;
+    margin-top: 20px;
+}
+
+#questions #refresh-btn:hover {
+    background-color: #333;
+}
+
+#questions #refresh-btn:active {
+    background-color: #bbb;
+}
